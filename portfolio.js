@@ -1,7 +1,29 @@
+// const swiper = new Swiper('.swiper', {
+//     scrollbar: {
+//       el: '.swiper-scrollbar',
+//       draggable: true,
+//     },
+//   });
+
 const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    // direction: 'vertical',
+    // loop: true,
+  
+    // If we need pagination
+    // pagination: {
+    //   el: '.swiper-pagination',
+    // },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
     scrollbar: {
       el: '.swiper-scrollbar',
-      draggable: true,
     },
   });
 
@@ -68,5 +90,7 @@ menuBtn.addEventListener('click', () => {
 
    //add box shadow on scrollbar
    window.addEventListener('scroll', () => {
-       document.querySelector('nav').classList.toggle('show-box-shadow', window.scrollY > 0)
+       document.querySelector('nav').classList.toggle('show-box-shadow', window.scrollY 
+       > 0)
    });
+  

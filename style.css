@@ -25,7 +25,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 7px;
     background: var(--color-primary-light)
 }
  
@@ -122,19 +122,17 @@ color: var(--color-white);
  
 /*--------------NAVBAR---------------*/
 nav {
-    /*background: blue;*/
     width: 100%;
     height: 5rem;
      background: antiquewhite; 
-    display: flex
+    display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
     top: 0;
     z-index: 2;
-    border-bottom: 1px solid var(--color-light);
-  }
-
+    border-bottom: 1px solid var(--color-light)
+}
   nav.show-box-shadow {
       box-shadow: 0 0.6rem 1rem var(--color-primary-light);
       border: none;
@@ -308,10 +306,13 @@ section.about {
 
 section.about .container {
     display: grid;
-    grid-template-columns: 26rem auto;
-    gap: 5rem;
+    grid-template-columns: 20rem auto;
+    gap: 3rem;
 }
-
+img {
+    width: 100%;
+    height: auto;
+  }
 section.about p {
     margin-bottom: 1rem;
 }
@@ -320,7 +321,7 @@ section.about .container .read-more-content {
     display: none;
 }
 /* toggle read more content using JS */
-section.about .container .read-more-content .show-content {
+section.about .container .read-more-content.show-content {
     display: block;
 }
 
@@ -418,10 +419,10 @@ section.skills .item:nth-child(3) .progress-bar .progress {
 
 /* =================skill one=========================*/
 
-
+  
 section.skills .container {
     width: 50%;
-}
+} 
 
 section.skills .skill .head {
     background: var(--color-primary);
@@ -497,7 +498,7 @@ section.skills .item:nth-child(2) .progress-bar .progress {
 
 section.skills .item:nth-child(3) .progress-bar .progress {
     width: 70%;
-}
+} */
 
 /* =================skill one=========================*/
 
@@ -658,14 +659,14 @@ section.testimonials {
 
 section.testimonials .container {
     width: 44rem;
+    height: 15rem;
+    cursor: pointer;
 }
 
 section.testimonials .carousel {
     display: flex;
     align-items: center;
-    
-    
-    
+   
 }
 
 section.testimonials .testimonial {
@@ -717,7 +718,7 @@ section.contact {
 section.contact .overlay {
     width: 100%;
     height: 100%;
-    background: (0,0,0,0.5);
+    background: (0,0,0,0.7);
     padding: 10rem 0 7rem;
 }
 
@@ -769,7 +770,7 @@ section.contact form textarea::placeholder {
 section.contact form .btn {
     width: 14rem;
     border: none;
-    background: var(--color-white);
+    background: antiquewhite;
     color: var(--color-black);
     margin: 2rem auto 0;
     
@@ -827,10 +828,12 @@ footer .container .socials a:hover {
 footer .copyright {
     background: var(--color-primary);
     color: var(--color-white);
+    height: 2rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-top: 5rem;
     padding-top: 2rem 0;
-    font-size: 0.8rem;
+    
        
 }
 /* ----------MEDIA QUERY (PHONE/TABLET) ---------- */
@@ -850,11 +853,15 @@ footer .copyright {
    h5 {
     font-size: 0.68rem; 
    }
+
+   .container {
+       width: 94%;
+   }
  
 /* ---------------- NAV BAR ---------- */
-nav {
+/* nav {
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
-}
+} */
 nav h3 {
     margin-left: 1rem;
 }
@@ -869,7 +876,7 @@ nav .container ul {
     flex-direction: column;
     z-index: 3;
     width: 16rem;
-    height: 100vw;
+    height: 100vh;
     background: var(--color-white);
     box-shadow: 1rem 0 2rem var(--color-primary-light);
     display: none;
@@ -942,11 +949,13 @@ nav button {
   }
 
   section.landing .container .outer-circle {
+      margin-top: 5rem;
       width: 16rem;
       height: 16rem;
   }
 
   section.landing .container .inner-circle {
+      margin-top: 5rem;
       width: 10rem;
       height: 10rem;
   }
@@ -979,16 +988,13 @@ section.landing .profile-area .outer-circle span:nth-child(4) {
 /*------------------ ABOUT SECTION -------------------------*/
 
  section.about .container {
-     grid-template-column: 1fr;
+     grid-template-columns: 1fr;
      gap: 1rem;
      text-align: center;
  }
 /*------------------ SKILLS SECTION -------------------------*/
 
- section.skills .container {
-     width: 94%
- }
-
+ 
  /*------------------ SERVICES SECTION -------------------------*/
 
  section.services .container {
@@ -1033,7 +1039,7 @@ footer .container {
 footer .container ul {
     flex-direction: column;
     text-align: center;
-    gap: 1.4rem;
+    gap: 1.2rem;
 }
 
 }
