@@ -1,4 +1,6 @@
 # Portfoliowebsite
+![Screenshot 2022-08-20 at 02 26 26](https://user-images.githubusercontent.com/100921034/185758817-fa49423e-1e8c-4540-a99a-1649c90ffa74.png)
+
 # 💫 About Me:
 I'm a Full Stack Software developer, and i'm currently redesigning my portfolio website
 
