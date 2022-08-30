@@ -5,7 +5,7 @@
     --color-light: #f4f4f4;
     --color-dark: #525252;
     --color-black: #141415;
-    --color-primary: #f24e1e;
+    --color-primary: #87ceeb;
     --color-primary-light:hsl(14, 89%, 53%, 12%);
     --color-success: #29f5a6;
     --color-warning: #ffce31;
@@ -134,7 +134,7 @@ nav {
     border-bottom: 1px solid var(--color-light)
 }
   nav.show-box-shadow {
-      box-shadow: 0 0.6rem 1rem var(--color-primary-light);
+      /* box-shadow: 0 0.6rem 1rem var(--color-primary-light); */
       border: none;
   }
 
@@ -205,7 +205,7 @@ section.landing .socials {
 section.landing .socials a {
     font-size: 1.1rem;
     background: antiquewhite;
-    color: blue;
+    color: skyblue;
     padding: 0.3rem;
     border-radius: 50%;
     height: 2rem;
