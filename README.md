@@ -23,4 +23,4 @@ I'm a Full Stack Software developer, and i'm currently redesigning my portfolio 
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Yemiklein&icon=0&color=0)](https://visitcount.itsvg.in)
-yemiklein@netlify.app
+[yemiklein@netlify.app](https://yemiklein.netlify.app/)
